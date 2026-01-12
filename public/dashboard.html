@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Auth System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="dashboard-nav">
+            <h2>🔐 Auth System</h2>
+            <button id="logoutBtn" class="btn btn-secondary">Logout</button>
+        </nav>
+        
+        <div class="dashboard-content">
+            <div class="welcome-card">
+                <h1>🎉 Welcome, <span id="usernameDisplay">User</span>!</h1>
+                <p class="success-message">You have successfully logged in!</p>
+            </div>
+            
+            <div class="content-card">
+                <h2>Your Dashboard</h2>
+                <p>This is your protected area. Only logged-in users can see this page.</p>
+                
+                <div class="placeholder-content">
+                    <h3>📝 Leron Posteum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>📊 Account Status</h3>
+                    <p>Active</p>
+                </div>
+                <div class="stat-card">
+                    <h3>🛡️ Security</h3>
+                    <p>Protected</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="dashboard-footer">
+            <p>Dashboard | Secure Area | Built with Node.js</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
