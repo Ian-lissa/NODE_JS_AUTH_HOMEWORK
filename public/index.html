@@ -1,17 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Home | Auth Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Auth System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Our Website!</h1>
-        <p>This is the home page.</p>
-        <div class="links">
-            <a href="login.html" class="btn">Login</a>
-            <a href="register.html" class="btn">Register</a>
+    <div class="page-container">
+        <div class="card">
+            <h1>Welcome to Our Authentication System! 🔐</h1>
+            <p class="subtitle">A secure and simple way to manage user accounts</p>
+            
+            <div class="links" style="display: flex; gap: 15px; justify-content: center; margin: 30px 0;">
+                <a href="login.html" class="btn btn-primary">Login</a>
+                <a href="register.html" class="btn btn-secondary">Register</a>
+            </div>
+            
+            <div class="features" style="margin-top: 30px;">
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+                    <div style="text-align: center; padding: 15px;">
+                        <h3 style="color: #667eea;">✅ Secure</h3>
+                        <p>Your data is protected</p>
+                    </div>
+                    <div style="text-align: center; padding: 15px;">
+                        <h3 style="color: #667eea;">⚡ Fast</h3>
+                        <p>Quick registration</p>
+                    </div>
+                    <div style="text-align: center; padding: 15px;">
+                        <h3 style="color: #667eea;">🎯 Simple</h3>
+                        <p>Easy to use</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <p>Built with Node.js | Assignment Project</p>
+            </div>
         </div>
     </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
