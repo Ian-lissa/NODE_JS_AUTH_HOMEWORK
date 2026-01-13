@@ -1,12 +1,16 @@
 {
   "name": "node_js_auth_homework",
   "version": "1.0.0",
-  "description": "## 🎯 Assignment Overview",
-  "main": "index.js",
+  "description": "Homework project",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Lissa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
 }
